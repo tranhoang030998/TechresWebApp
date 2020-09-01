@@ -1,0 +1,14 @@
+.avatar-mr {
+    margin-right: 8px !important;
+}
+
+.button-join-wrapper {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    .ant-typography {
+        margin-bottom: 8px;
+    }
+}

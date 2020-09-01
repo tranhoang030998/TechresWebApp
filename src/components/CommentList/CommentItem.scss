@@ -1,0 +1,52 @@
+.d-flex {
+  display: flex;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mr-2 {
+  margin-right: 16px;
+}
+
+.mr-1 {
+  margin-right: 8px;
+}
+
+.ml-1 {
+  margin-left: 8px;
+}
+
+.posted-author {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post-meta {
+  padding: 12px 0;
+  display: flex;
+  border-top: 1px solid #3333;
+  border-bottom: 1px solid #3333;
+  .post-after {
+    position: relative;
+  }
+  & > :not(:last-child):after {
+    position: absolute;
+    content: "";
+    border-right: 1px solid #3333;
+    top: 50%;
+    right: -8px;
+    height: 18px;
+    transform: translateY(-50%);
+  }
+}
+
+.card {
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

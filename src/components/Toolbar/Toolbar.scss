@@ -1,0 +1,12 @@
+.left-items {
+    & > * {
+        margin-right: 26px;
+    }
+    align-items: center;
+    .anticon {
+        svg {
+            font-size: 20px;
+            color: #37413fd9;
+        }
+    }
+}
